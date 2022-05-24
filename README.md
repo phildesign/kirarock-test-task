@@ -1,1 +1,1 @@
-# kirarock-test-task
+# Тестовое задание Kirarock
