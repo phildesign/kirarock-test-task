@@ -4,12 +4,19 @@ import cn from 'classnames';
 import styles from './Item.module.css';
 
 export interface ItemProps {
-	item: any;
+	item: number;
 	handleClickChangeQuantity: () => void;
 }
 
-const Item = ({ item, handleClickChangeQuantity }: ItemProps): JSX.Element => {
-	const [counter, setCounter] = useState(item);
+const Item = ({ handleClickChangeQuantity }: ItemProps): JSX.Element => {
+	const randomInteger = (min: number, max: number) => {
+		let randomNum = min - 0.5 + Math.random() * (max - min + 1);
+		return Math.round(randomNum);
+	};
+
+	const randomNumber = randomInteger(1, 10);
+
+	const [counter, setCounter] = useState(randomNumber);
 
 	const handleClickMinus = () => {
 		if (counter > 0) {
