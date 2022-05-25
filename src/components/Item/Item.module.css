@@ -6,9 +6,6 @@
 	color: #fff;
 	background: #0000fd;
 	border-radius: 10px;
-}
-
-.item:nth-child(5) {
 	position: relative;
 }
 
@@ -46,4 +43,24 @@
 
 .item.destroyed::after {
 	border-top: 55px solid #ff0000;
+}
+
+.item:nth-child(3n)::before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 10px;
+	height: 10px;
+	background: #ffff00;
+}
+
+.item:nth-child(3n)::after {
+	content: '';
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 10px;
+	height: 10px;
+	background: #ffff00;
 }
