@@ -1,8 +1,14 @@
 import React from 'react';
-import style from './App.module.css';
+import Box from './components/Box/Box';
+
+import styles from './App.module.css';
 
 const App = () => {
-	return <div className={style.App}></div>;
+	return (
+		<div className={styles.app}>
+			<Box />
+		</div>
+	);
 };
 
 export default App;
