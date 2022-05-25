@@ -33,6 +33,30 @@
 	border-right: 130px solid #fff;
 }
 
+@media (max-width: 1200px) {
+	.item:nth-child(5)::before {
+		border-left: 100px solid #fff;
+		border-right: 100px solid #fff;
+	}
+
+	.item:nth-child(5)::after {
+		border-left: 100px solid #fff;
+		border-right: 100px solid #fff;
+	}
+}
+
+@media (max-width: 900px) {
+	.item:nth-child(5)::before {
+		border-left: 80px solid #fff;
+		border-right: 80px solid #fff;
+	}
+
+	.item:nth-child(5)::after {
+		border-left: 80px solid #fff;
+		border-right: 80px solid #fff;
+	}
+}
+
 .item.destroyed {
 	background: #ff0000;
 }
