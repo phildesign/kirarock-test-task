@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kirarock-test-task/static/css/main.5594a145.css",
+    "main.js": "/kirarock-test-task/static/js/main.6658fed0.js",
+    "static/js/787.cfdabcf5.chunk.js": "/kirarock-test-task/static/js/787.cfdabcf5.chunk.js",
+    "index.html": "/kirarock-test-task/index.html",
+    "main.5594a145.css.map": "/kirarock-test-task/static/css/main.5594a145.css.map",
+    "main.6658fed0.js.map": "/kirarock-test-task/static/js/main.6658fed0.js.map",
+    "787.cfdabcf5.chunk.js.map": "/kirarock-test-task/static/js/787.cfdabcf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5594a145.css",
+    "static/js/main.6658fed0.js"
+  ]
+}
